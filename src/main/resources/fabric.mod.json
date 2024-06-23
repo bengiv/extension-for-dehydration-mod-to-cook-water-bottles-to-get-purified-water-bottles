@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "dehydration-mod-cook-bottles",
+	"version": "${version}",
+	"name": "dehydration-mod-cook-bottles",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dehydration-mod-cook-bottles/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.bengiv.Dehydrationmodcookbottles"
+		],
+		"fabric-datagen": [
+			"dev.bengiv.DehydrationmodcookbottlesDataGenerator"
+		]
+	},
+	"mixins": [
+		"dehydration-mod-cook-bottles.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
