@@ -1,30 +1,27 @@
 {
 	"schemaVersion": 1,
-	"id": "dehydration-mod-cook-bottles",
+	"id": "extension-for-dehydration-mod-to-cook-water-bottles-to-get-purified-water-bottles",
 	"version": "${version}",
-	"name": "dehydration-mod-cook-bottles",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "extension-for-dehydration-mod-to-cook-water-bottles-to-get-purified-water-bottles",
+	"description": " ",
 	"authors": [
-		"Me!"
+		"bengiv"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://bento.me/spaced",
+		"sources": "https://github.com/bengiv/extension-for-dehydration-mod-to-cook-water-bottles-to-get-purified-water-bottles"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/dehydration-mod-cook-bottles/icon.png",
+	"icon": "assets/EFDMTCWBTGPWB/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dev.bengiv.Dehydrationmodcookbottles"
+			"dev.bengiv.EFDMTCWBTGPWB"
 		],
 		"fabric-datagen": [
-			"dev.bengiv.DehydrationmodcookbottlesDataGenerator"
+			"dev.bengiv.EFDMTCWBTGPWBDataGenerator"
 		]
 	},
-	"mixins": [
-		"dehydration-mod-cook-bottles.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.19.2",
